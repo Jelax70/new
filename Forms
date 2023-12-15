@@ -25,13 +25,13 @@
         <br>
 <br>
   <div class="container">
-    <div class="bg-primary-subtle">
+    <div class="bg-white">
       <div class="row col-6">
-        <div class="text-light">
-          <!--<div class="fst-italic">-->
+        <!--<div class="text-white">
+          <div class="fst-italic">-->
             <h1 class="fw-bold">Is there something online bothering you?</h1>
-          <!--</div>-->
-        </div>
+          <!--</div>
+        </div>-->
       </div>
     </div>
   </div>
@@ -39,9 +39,8 @@
 <hr>
 <div class="bg-dark-subtle">
   <div class="mb-3">
-    <p>Do you need help or know of someone who may need help dealing with Cyberbullying that you would like to share with us?</p>
-    <a href="intro.html">How do I know if i'm being Cyberbullied?</a>
     <br>
+    <p>Do you need help or know of someone who may need help dealing with Cyberbullying that you would like to share with us?</p>
     <p>Don't worry, what you say will be kept confidential.</p>
   </div>
   
@@ -73,6 +72,8 @@
         <hr>
           <div class="mb-3">
             <p>What form of Cyberbullying are you/other person experiencing?</p>
+            <a href="intro.html">What are the types of Cyberbullying?</a>
+            <br>
             <input type="checkbox" id="answer1" name="effects[]" value="Impersonation"> Impersonation
           <br>
           <input type="checkbox" id="answer2" name="effects[]" value="Outing & Trickery"> Outing & Trickery
