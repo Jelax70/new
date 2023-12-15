@@ -10,6 +10,9 @@
     *{
         margin-left: 15px; margin-right: 10px;
     }
+    body {
+            background-color:  rgb(172, 172, 179);
+        }
     h1{
         border: transparent; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -22,7 +25,7 @@
         <br>
 <br>
   <div class="container">
-    <div class="bg-info">
+    <div class="bg-primary-subtle">
       <div class="row col-6">
         <div class="text-light">
           <!--<div class="fst-italic">-->
@@ -34,93 +37,95 @@
   </div>
 
 <hr>
-<div class="mb-3">
-  <p>Do you need help or know of someone who may need help dealing with Cyberbullying that you would like to share with us?</p>
-  <a href="intro.html">How do I know if i'm being Cyberbullied?</a>
-  <br>
-  <p>Don't worry, what you say will be kept confidential.</p>
+<div class="bg-dark-subtle">
+  <div class="mb-3">
+    <p>Do you need help or know of someone who may need help dealing with Cyberbullying that you would like to share with us?</p>
+    <a href="intro.html">How do I know if i'm being Cyberbullied?</a>
+    <br>
+    <p>Don't worry, what you say will be kept confidential.</p>
+  </div>
+  
+  <!--<form action="" method="get">
+  
+      Name: <input type="text" name="name">-->
+  
+      <!--<input type="checkbox" id="answer" name="effects[]" value=""> 
+          <br>-->
+      
+  
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We won't share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">My name is ...</label>
+          <input class="form-control" id="name">
+          <div id="name" class="form-text">(Optional)</div>
+        </div>
+        <div class="mb-3">
+          <p>Are you writing this for someone else?</p>
+          <input type="radio" id="yes" name="insight"> Yes
+          <br>
+          <input type="radio" id="no" name="insight"> No
+        </div>
+        <hr>
+          <div class="mb-3">
+            <p>What form of Cyberbullying are you/other person experiencing?</p>
+            <input type="checkbox" id="answer1" name="effects[]" value="Impersonation"> Impersonation
+          <br>
+          <input type="checkbox" id="answer2" name="effects[]" value="Outing & Trickery"> Outing & Trickery
+          <br>
+          <input type="checkbox" id="answer3" name="effects[]" value="Online Harrrassment"> Online Harrrassment
+          <br>
+          <input type="checkbox" id="answer4" name="effects[]" value="Exclusion"> Exclusion
+          <br>
+          <input type="checkbox" id="answer5" name="effects[]" value="Cyberstalking"> Cyberstalking
+          <br>
+          <input type="checkbox" id="answer6" name="effects[]" value="Doxxing"> Doxxing
+          <br>
+          </div>
+          <div class="mb-3">
+            Others:
+            <br>
+            <textarea name="message" rows="1" cols="40"></textarea>
+          </div>
+          <hr>
+          <div class="mb-3">
+            <p>How are you/other person being affected by the Cyberbullying?</p>
+            <a href="">What are the effects of Cyberbullying?</a>
+            <br>
+            <input type="checkbox" id="answer1" name="effects[]" value="insert"> Insert 
+          <br>
+          </div>
+          <div class="mb-3">
+            Others:
+            <br>
+            <textarea name="message" rows="1" cols="40"></textarea>
+          </div>
+          <hr>
+          <div class="mb-3">
+            <p>Are you/other person being Cyberbullied in a public or private space?</p>
+            <input type="checkbox" id="answer1" name="effects[]" value="Puplic"> Public 
+            <br>
+            <input type="checkbox" id="answer1" name="effects[]" value="Private"> Private 
+            <div id="name" class="form-text">(Select both options if you're being affected by both)</div>
+          </div>
+          <div class="mb-3">
+            Others:
+            <br>
+            <textarea name="message" rows="1" cols="40"></textarea>
+          </div>
+          <hr>
+          <div class="mb-3">
+            Is there anything else you would like to tell us?
+            <br>
+            <textarea name="message" rows="3" cols="50"></textarea>
+          </div>
+          <hr>
 </div>
 
-<!--<form action="" method="get">
-
-    Name: <input type="text" name="name">-->
-
-    <!--<input type="checkbox" id="answer" name="effects[]" value=""> 
-        <br>-->
-    
-
-    <form>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We won't share your email with anyone else.</div>
-      </div>
-      <div class="mb-3">
-        <label for="name" class="form-label">My name is ...</label>
-        <input class="form-control" id="name">
-        <div id="name" class="form-text">(Optional)</div>
-      </div>
-      </div>
-      <div class="mb-3">
-        <p>Are you writing this for someone else?</p>
-        <input type="radio" id="yes" name="insight"> Yes
-        <br>
-        <input type="radio" id="no" name="insight"> No
-      </div>
-      <hr>
-        <div class="mb-3">
-          <p>What form of Cyberbullying are you/other person experiencing?</p>
-          <input type="checkbox" id="answer1" name="effects[]" value="Impersonation"> Impersonation
-        <br>
-        <input type="checkbox" id="answer2" name="effects[]" value="Outing & Trickery"> Outing & Trickery
-        <br>
-        <input type="checkbox" id="answer3" name="effects[]" value="Online Harrrassment"> Online Harrrassment
-        <br>
-        <input type="checkbox" id="answer4" name="effects[]" value="Exclusion"> Exclusion
-        <br>
-        <input type="checkbox" id="answer5" name="effects[]" value="Cyberstalking"> Cyberstalking
-        <br>
-        <input type="checkbox" id="answer6" name="effects[]" value="Doxxing"> Doxxing
-        <br>
-        </div>
-        <div class="mb-3">
-          Others:
-          <br>
-          <textarea name="message" rows="1" cols="40"></textarea>
-        </div>
-        <hr>
-        <div class="mb-3">
-          <p>How are you/other person being affected by the Cyberbullying?</p>
-          <a href="">What are the effects of Cyberbullying?</a>
-          <br>
-          <input type="checkbox" id="answer1" name="effects[]" value="insert"> Insert 
-        <br>
-        </div>
-        <div class="mb-3">
-          Others:
-          <br>
-          <textarea name="message" rows="1" cols="40"></textarea>
-        </div>
-        <hr>
-        <div class="mb-3">
-          <p>Are you/other person being Cyberbullied in a public or private space?</p>
-          <input type="checkbox" id="answer1" name="effects[]" value="Puplic"> Public 
-          <br>
-          <input type="checkbox" id="answer1" name="effects[]" value="Private"> Private 
-          <div id="name" class="form-text">(Select both options if you're being affected by both)</div>
-        </div>
-        <div class="mb-3">
-          Others:
-          <br>
-          <textarea name="message" rows="1" cols="40"></textarea>
-        </div>
-        <hr>
-        <div class="mb-3">
-          Is there anything else you would like to tell us?
-          <br>
-          <textarea name="message" rows="3" cols="50"></textarea>
-        </div>
-        <hr>
         <div class="mb-3">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
