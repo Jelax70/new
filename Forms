@@ -95,7 +95,7 @@
           <hr>
           <div class="mb-3">
             <p>How are you/other person being affected by the Cyberbullying?</p>
-            <a href="">What are the effects of Cyberbullying?</a>
+            <a href="effects.html">What are the effects of Cyberbullying?</a>
             <br>
             <textarea name="message" rows="3" cols="50"></textarea>
           <br>
