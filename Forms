@@ -97,14 +97,10 @@
             <p>How are you/other person being affected by the Cyberbullying?</p>
             <a href="">What are the effects of Cyberbullying?</a>
             <br>
-            <input type="checkbox" id="answer1" name="effects[]" value="insert"> Insert 
+            <textarea name="message" rows="3" cols="50"></textarea>
           <br>
           </div>
-          <div class="mb-3">
-            Others:
-            <br>
-            <textarea name="message" rows="1" cols="40"></textarea>
-          </div>
+          
           <hr>
           <div class="mb-3">
             <p>Are you/other person being Cyberbullied in a public or private space?</p>
